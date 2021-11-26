@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <title>Myntra</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="download (12).jpg" alt="" width="70" height="64"
+          class="d-inline-block align-text-top">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-capitalize fs-6 fw-bold" aria-current="page" href="#">MEN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-capitalize fs-6 fw-bold" aria-current="page" href="#">WOMEN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-capitalize fs-6 fw-bold" aria-current="page" href="#">KIDS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-capitalize fs-6 fw-bold" aria-current="page" href="#">HOME&LIVING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-capitalize fs-6 fw-bold" aria-current="page" href="#">BEAUTY</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <form>
+              <div class="input-group">
+                <div class="input-group-text" id="btnGroupAddon"><i class="bi bi-search"></i></div>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                  aria-describedby="btnGroupAddon">
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+          <li class="text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg>
+            <div>Profile</div>
+          </li>
+
+          <li class="text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart"
+              viewBox="0 0 16 16">
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+            </svg>
+            <div> Wishlist</div>
+          </li>
+
+          <li class="text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+            </svg>
+            <div>Bag</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Clothing</a></li>
+      <li class="breadcrumb-item"><a href="#">Shirts</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Casual Shirts For Men</li>
+    </ol>
+    <ol>
+      <div class="breadcrumb-item active" aria-current="page">Casual Shirts For Men - 50614 items</div>
+    </ol>
+  </nav>
+
+  <div>
+    <div class="row">
+      <div class="col-3">
+        <div class="card">
+          <div class="card-body">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Brand" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              Roadster<span class="text-muted">&nbsp;(1976)</span>
+            </div>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              Louis Philipee Sport<span class="text-muted">&nbsp;(1872)</span>
+            </div>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              Parx <span class="text-muted">&nbsp;(1673)</span>
+              <div>
+                <div>
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  Allen Solly<span class="text-muted">&nbsp;(3822)</span>
+                </div>
+
+                <div>
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  Blackberrys<span class="text-muted">&nbsp;(3728)</span>
+                </div>
+
+                <div>
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  ColorPlus<span class="text-muted">&nbsp;(1122)</span>
+                </div>
+                <div> <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  SPYKAR<span class="text-muted">&nbsp;(1262)</span>
+                </div>
+                <div>
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  Peter England Casuals<span class="text-muted">&nbsp;(1928)</span>
+                </div>
+                <div>
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  ANTHEM<span class="text-muted">&nbsp;(1028)</span>
+                </div>
+
+                <div>
+                  <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                  American Archer<span class="text-muted">&nbsp;(228)</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Price" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <div>
+                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                Rs.345 to Rs.3012<span class="text-muted">&nbsp;(44793)</span>
+              </div>
+              <div>
+                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                Rs.3012 to Rs.5675<span class="text-muted">&nbsp;(1102)</span>
+              </div>
+              <div>
+                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                Rs.5675 to Rs.8338<span class="text-muted">&nbsp;(72)</span>
+              </div>
+              <div>
+                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                Rs.8338 to Rs.10999<span class="text-muted">&nbsp;(3)</span>
+              </div>
+              <div>
+                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                Rs.8338 to Rs.10999<span class="text-muted">&nbsp;(3)</span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="card">
+          <div class="card-body">
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Color" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              <input class="form-check-input bg-light" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              White<span class="text-muted">&nbsp;(33242)</span>
+            </div>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              <input class="form-check-input bg-primary" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              Blue<span class="text-muted">&nbsp;(3432)</span>
+            </div>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              <input class="form-check-input bg-danger" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              Red<span class="text-muted">&nbsp;(2352)</span>
+            </div>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              <input class="form-check-input bg-dark" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              Black<span class="text-muted">&nbsp;(1332)</span>
+            </div>
+            <div>
+              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+              <input class="form-check-input bg-success" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              Green<span class="text-muted">&nbsp;(1322)</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-body">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Discount range" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              10% and above
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              20% and above
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              30% and above
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              40% and above
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              50% and above
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              60% and above
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              70% and above
+            </div>
+            <div>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              80% and above
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+      <div class="col-9">
+
+        <div class="card-body">
+          <div class="row">
+            <div class="col-4 mb-2">
+              <div class="card">
+                <img
+                  src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2006852/2018/4/3/11522753460014-HIGHLANDER-Men-Blue--White-Slim-Fit-Checked-Casual-Shirt-2811522753459810-1.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h6 class="fw-bold">HIGHLANDER</h6>
+                  <p class="fs-6 text-muted">Men Slim Fit Casual Shirt</p>
+                  <span>Rs.500</span>
+                  <span class="text-decoration-line-through text-muted">Rs.900</span>
+                  <span class=" fs-6 text-danger">(49% OFF)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4 mb-2">
+              <div class="card">
+                <img
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h6 class="fw-bold">Dennis Lingo</h6>
+                  <p class="fs-6 text-muted">Men Slim Fit Casual Shirt</p>
+                  <span>Rs.600</span>
+                  <span class="text-decoration-line-through text-muted">Rs.1849</span>
+                  <span class=" fs-6 text-danger">(64% OFF)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4 mb-2">
+              <div class="card">
+                <img
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2414313/2018/3/13/11520926368526-HERENOW-Men-Red--Black-Regular-Fit-Checked-Casual-Shirt-8881520926368447-1.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h6 class="fw-bold">HERE&NOW</h6>
+                  <p class="fs-6 text-muted">Men Regular Fit Casual Shirt</p>
+                  <span>Rs.899</span>
+                  <span class="text-decoration-line-through text-muted">Rs.1799</span>
+                  <span class=" fs-6 text-danger">(50% OFF)</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-4 mb-2">
+              <div class="card">
+                <img
+                  src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2256568/2018/4/3/11522749277396-HIGHLANDER-Men-Teal-Slim-Fit-Solid-Casual-Shirt-7301522749277212-1.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h6 class="fw-bold">HIGHLANDER</h6>
+                  <p class="fs-6 text-muted">Men Slim Fit Casual Shirt</p>
+                  <span>Rs.549</span>
+                  <span class="text-decoration-line-through text-muted">Rs.999</span>
+                  <span class=" fs-6 text-danger">(45% OFF)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4 mb-2">
+              <div class="card">
+                <img
+                  src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/10456354/2019/8/22/d56e75f6-f1a7-4fdd-b430-51befb36f88d1566454760527-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-1.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h6 class="fw-bold">WROGN</h6>
+                  <p class="fs-6 text-muted">Slim Fit Striped Casual Shirt</p>
+                  <span>Rs.1439</span>
+                  <span class="text-decoration-line-through text-muted">Rs.2399</span>
+                  <span class=" fs-6 text-danger">(40% OFF)</span>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4 mb-2">
+              <div class="card">
+                <img
+                  src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/12365722/2020/11/17/aa196d28-effd-4ddb-a3e8-0f477b3738d71605611521018-Levis-Men-Shirts-9481605611519103-1.jpg"
+                  class="card-img-top">
+                <div class="card-body">
+                  <h6 class="fw-bold">Compus Sutra</h6>
+                  <p class="fs-6 text-muted">Men Standard Fit Casual Shirt</p>
+                  <span>Rs.644</span>
+                  <span class="text-decoration-line-through text-muted">Rs.1499</span>
+                  <span class=" fs-6 text-danger">(57% OFF)</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  </div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
